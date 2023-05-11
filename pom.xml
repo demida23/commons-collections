@@ -641,6 +641,24 @@
           </excludes>
         </configuration>
       </plugin>
+<plugin>
+    <groupId>org.apache.rat</groupId>
+    <artifactId>apache-rat-plugin</artifactId>
+    <version>0.15</version>
+    <executions>
+        <execution>
+            <id>rat-check</id>
+            <phase>verify</phase>
+            <goals>
+                <goal>check</goal>
+            </goals>
+            <configuration>
+                <consoleOutput>true</consoleOutput>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+	    
       <plugin>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <configuration>
