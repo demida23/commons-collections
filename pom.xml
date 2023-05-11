@@ -76,6 +76,8 @@
       <timezone>America/New_York</timezone>
       <properties>
         <picUrl>https://people.apache.org/~ggregory/img/garydgregory80.png</picUrl>
+	<sonar.organization>demida23</sonar.organization>
+	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
       </properties>
     </developer>
     <developer>
